@@ -10,6 +10,9 @@ header img{
     width: 12%;
 }
 
+main{
+    height: auto;
+}
 main h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -21,6 +24,14 @@ footer{
     bottom: 0;
     height: 120px;
     left: 0;
-    position: absolute;
+    position: relative;
     right: 0;
+}
+
+#combo{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(243, 154, 0);
+    width: 30vw;
+    margin: auto;
 }

@@ -15,7 +15,11 @@
     <main>
         
         <h1>Combos Disponibles</h1>
-
+        <form>
+            <input id="nombre" type="text" placeholder="Ingrese su nombre">
+            <input id="correo" type="text" placeholder="Ingrese su correo">
+            <button id="boton" type="reset" onclick="agregar();">Agregar</button>
+        </form>
 
         <div id="combo">
 
@@ -26,6 +30,24 @@
 
     </footer>
     <script src="servicios.js">
+        function agregar(){
+            function Persona(nombre,correo){
+                this.nombre=nombre;
+                this.correo=correo;
+            }
+            var nuevoNombre = document.getElementById("nombre").value;
+            var nuevoCorreo = document.getElementById("correo").value;
+
+            nuevoCliente = new Persona(nuevoNombre,nuevoCorreo);
+            console.log(nuevoCliente);
+            agregar();
+        }
+
+        var agenda= [];
+        function agregar(){
+            agenda.push(nuevoCliente);
+            console.log(agenda);
+        };
 
     </script>
 
