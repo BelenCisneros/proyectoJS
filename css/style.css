@@ -1,0 +1,26 @@
+header{
+    background-color: rgb(255, 187, 0);
+    height: 100px;
+    width: 100%;
+}
+
+header img{
+    padding-top: 18px;
+    padding-left: 16px;
+    width: 12%;
+}
+
+main h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    background-color: rgb(61, 0, 84);
+    bottom: 0;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
